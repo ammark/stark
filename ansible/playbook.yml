@@ -11,7 +11,7 @@
     - name: Upgrade
       become: true
       apt:
-        upgrade: yes
+        upgrade: safe
 
     - name: Install cowsay - it's probably important
       become: yes
